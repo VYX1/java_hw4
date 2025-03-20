@@ -29,7 +29,7 @@ public class App {
         System.out.println("Matrices after multiplication:");
         print_matrix(result);
 
-        scanner.close(); // Close the scanner to avoid resource leak
+        scanner.close(); 
     }
 
     public static int[][] read_matrix(String file_path) {
@@ -93,7 +93,7 @@ public class App {
             }
         }
 
-        scanner.close(); // Close the scanner to avoid resource leak
+        scanner.close(); 
         return matrix;
     }
 
